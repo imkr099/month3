@@ -3,6 +3,7 @@ from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters import Text
 from aiogram.dispatcher.filters.state import State, StatesGroup
 from keyboards import client_kb
+from database.bot_db import sql_command_insert
 
 
 class FSMAdmin(StatesGroup):

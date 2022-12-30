@@ -55,4 +55,4 @@ def register_handlers_client(dp: Dispatcher):
     dp.register_message_handler(start_handler, commands=['start', 'help'])
     dp.register_message_handler(quiz_1, commands=['quiz'])
     dp.register_message_handler(get_random_user, commands=['get'])
-    dp.register_message_handler(get_flashlight, commands='flashlight')
+    dp.register_message_handler(get_flashlight, commands=['flashlight'])
